@@ -1,0 +1,9 @@
+# to Build the image
+sudo docker build -t myimage .     
+
+
+# to load image
+
+# what ports you are using in server.py and Dockerfile that ports should be used here
+
+sudo docker run -p 8081:8081 myimage
